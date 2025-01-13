@@ -1,20 +1,13 @@
 import json
-import pprint
 import traceback
-from urllib import response
 
 from model_configurations import get_model_configuration
 
 from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage
-from rich import print as ppprint
-from langchain_core.output_parsers import JsonOutputParser
-
 
 gpt_chat_version = 'gpt-4o'
 gpt_config = get_model_configuration(gpt_chat_version)
-json_parser = JsonOutputParser()
-format_instructions = json_parser.get_format_instructions()
 
 def generate_hw01(question):
     pass
