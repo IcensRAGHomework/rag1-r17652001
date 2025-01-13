@@ -1,4 +1,4 @@
-﻿﻿import json
+import json
 import pprint
 import traceback
 from urllib import response
