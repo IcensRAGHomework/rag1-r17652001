@@ -7,6 +7,7 @@ from model_configurations import get_model_configuration
 
 from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import HumanMessage
+from rich import print as ppprint
 
 gpt_chat_version = 'gpt-4o'
 gpt_config = get_model_configuration(gpt_chat_version)
