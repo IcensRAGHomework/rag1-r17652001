@@ -1,8 +1,10 @@
 pytest
-rich
 langchain==0.3.3
 langchain-community==0.3.2
 langchain-core==0.3.10
 langchain-openai==0.2.2
 pydantic==2.7.4
 requests==2.32.3
+Pillow
+pytesseract
+tesseract
